@@ -1,0 +1,26 @@
+#gallery {
+	width: 800px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#gallery .photo {
+	position: relative;
+	height: 500px;
+}
+
+#gallery .photo img{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+#gallery .photo img.showed {
+	opacity: 1;
+}
+
+.buttoms {
+	text-align: center;
+}
